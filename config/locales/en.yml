@@ -30,4 +30,31 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  2nd_title: "| Ruby on Rails Tutorial Sample App"
+  rails_book_link: "https://www.railstutorial.org/book"
+  rails_contact_link: "https://www.railstutorial.org/contact"
+  rails_help_link: "https://www.railstutorial.org/help"
+  rails_ruby_link: "http://rubyonrails.org/"
+  rails_screencast_link : "http://screencasts.railstutorial.org/"
+  rails_tut_link: "https://www.railstutorial.org/"
+
+  static_pages:
+    about:
+      book: "book"
+      content_html: "The <em>%{home_tut_link}</em> is a %{book_link} and %{screencast_link} series to teach web development with %{rails_link}. This is the sample application for the tutorial."
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      ruby_on_rails: "Ruby on Rails"
+      screencast_serie: "screencast series"
+      title: "About"
+    contact:
+      contact_page: "contact page"
+      content_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_link}."
+      title: "Contact"
+    help:
+      content_html: "Get help on the Ruby on Rails Tutorial at the %{help_link}. To get help on this sample app, see the <em>%{book_link}</em> book."
+      rails_tut_help_section: "Rails Tutorial help section"
+      title: "Help"
+    home:
+      content_html: "This is the home page for the %{home_tut_link} sample application."
+      home: "Home"
+      title: "Sample App"

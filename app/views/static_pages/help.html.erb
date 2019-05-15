@@ -1,0 +1,5 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t(".title") %></h1>
+<p>
+  <%= t(".content_html", help_link: link_to(t(".rails_tut_help_section"), t("rails_help_link")), book_link: link_to(t("static_pages.about.ruby_on_rails_tutorial"), t("rails_book_link"))) %>
+</p>
