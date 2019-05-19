@@ -31,9 +31,15 @@
 
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
+  footer_content_html: "The %{home_tut_link} by %{author_link}"
+  michael_hartl: "Michael Hartl"
+  michael_hartl_link: "http://www.michaelhartl.com/"
+  news: "News"
+  new_rails_tut_link: "http://news.railstutorial.org/"
   rails_book_link: "https://www.railstutorial.org/book"
   rails_contact_link: "https://www.railstutorial.org/contact"
   rails_help_link: "https://www.railstutorial.org/help"
+  rails_logo: "Rails logo"
   rails_ruby_link: "http://rubyonrails.org/"
   rails_screencast_link : "http://screencasts.railstutorial.org/"
   rails_tut_link: "https://www.railstutorial.org/"
@@ -58,3 +64,10 @@ en:
       content_html: "This is the home page for the %{home_tut_link} sample application."
       home: "Home"
       title: "Sample App"
+      welcome_message: "Welcome to the Sample App"
+  users:
+    login: "Log in"
+    new:
+      content_html: "This will be a signup page for new users."
+      sign_up: "Sign up"
+      sign_up_now: "Sign up now!"
