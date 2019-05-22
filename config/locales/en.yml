@@ -44,6 +44,12 @@ en:
   rails_screencast_link : "http://screencasts.railstutorial.org/"
   rails_tut_link: "https://www.railstutorial.org/"
 
+  shared:
+    error_messages:
+      message:
+        one: "The form contains 1 error."
+        other: "The form contains %{count} errors."
+
   static_pages:
     about:
       book: "book"
@@ -66,8 +72,14 @@ en:
       title: "Sample App"
       welcome_message: "Welcome to the Sample App"
   users:
+    create:
+      flash_success_create: "Welcome to the Sample App!"
     login: "Log in"
     new:
-      content_html: "This will be a signup page for new users."
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
       sign_up: "Sign up"
       sign_up_now: "Sign up now!"
+    not_found:
+      user_does_not_exist: "User does not exist!"
+      not_found: "Not Found"
