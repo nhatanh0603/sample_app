@@ -32,6 +32,17 @@
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
   footer_content_html: "The %{home_tut_link} by %{author_link}"
+  layouts:
+    header:
+      account: "Account"
+      help: "Help"
+      home: "Home"
+      log_in: "Log in"
+      log_out: "Log out"
+      profile: "Profile"
+      sample_app: "Sample App"
+      settings: "Settings"
+      users: "Users"
   michael_hartl: "Michael Hartl"
   michael_hartl_link: "http://www.michaelhartl.com/"
   news: "News"
@@ -69,7 +80,6 @@ en:
     home:
       content_html: "This is the home page for the %{home_tut_link} sample application."
       home: "Home"
-      title: "Sample App"
       welcome_message: "Welcome to the Sample App"
   users:
     create:
@@ -83,3 +93,11 @@ en:
     not_found:
       user_does_not_exist: "User does not exist!"
       not_found: "Not Found"
+  sessions:
+    create:
+      flash_invalid_login: "Invalid email/password combination"
+    new:
+      new_user_sign_up_now_html: "New user? %{sign_up_link}"
+      submit_button: "Log in"
+      sign_up_now: "Sign up now!"
+      title: "Log in"
