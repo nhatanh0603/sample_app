@@ -1,9 +1,12 @@
 user:
-  name:
-    max_length: 50
   email:
     max_length: 255
-  password:
-    min_length: 6
   gravatar:
     default_size: 80
+  name:
+    max_length: 50
+  password:
+    min_length: 6
+
+remember_me: "1"
+forget_me: "0"
