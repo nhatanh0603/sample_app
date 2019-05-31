@@ -3,6 +3,7 @@ user:
     max_length: 255
   gravatar:
     default_size: 80
+    users_list_size: 50
   name:
     max_length: 50
   password:

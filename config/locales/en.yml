@@ -32,6 +32,7 @@
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
   footer_content_html: "The %{home_tut_link} by %{author_link}"
+  gravatar_link_email: "http://gravatar.com/emails"
   layouts:
     header:
       account: "Account"
@@ -84,15 +85,31 @@ en:
   users:
     create:
       flash_success_create: "Welcome to the Sample App!"
-    login: "Log in"
+    destroy:
+      delete: "Delete"
+      delete_confirmation: "You sure?"
+      flash_success_delete: "User deleted"
+    edit:
+      button_edit: "Save changes"
+      button_edit_avatar: "change"
+      title: "Edit user"
+      title_content: "Update your profile"
+    index:
+      title: "All users"
+      title_content: "All users"
+    login:
+      flash_warning_login: "Please log in."
     new:
       confirmation: "Confirmation"
-      create_my_account: "Create my account"
-      sign_up: "Sign up"
+      button_create: "Create my account"
+      title: "Sign up"
+      title_content: "Sign up"
       sign_up_now: "Sign up now!"
     not_found:
       user_does_not_exist: "User does not exist!"
       not_found: "Not Found"
+    update:
+      flash_success_update: "Profile updated"
   sessions:
     create:
       flash_invalid_login: "Invalid email/password combination"
