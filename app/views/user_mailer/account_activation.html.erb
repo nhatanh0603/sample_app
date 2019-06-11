@@ -1,0 +1,9 @@
+<h1><%= t(".body_content_html.header") %></h1>
+
+<p><%= t(".body_content_html.hi_user", user_name: @user.name) %></p>
+
+<p>
+<%= t(".body_content_html.content") %>
+</p>
+
+<%= link_to t(".body_content_html.activate"), edit_account_activation_url(@user.activation_token, email: @user.email) %>

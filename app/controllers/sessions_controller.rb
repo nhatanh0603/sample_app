@@ -16,13 +16,15 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
 
-  private def login_success user
-    log_in user
-    if params[:session][:remember_me] == Settings.remember_me
-      remember(user)
+  private
+  def login_success user
+    if user.activated?
+      log_in user
+      params[:session][:remember_me] == Settings.remember_me ? remember(user) : forget(user)
+      redirect_back_or user
     else
-      forget(user)
+      flash[:warning] = I18n.t "users.account_activation.flash_warning_not_activated"
+      redirect_to root_url
     end
-    redirect_back_or user
   end
 end

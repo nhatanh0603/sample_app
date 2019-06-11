@@ -83,8 +83,13 @@ en:
       home: "Home"
       welcome_message: "Welcome to the Sample App"
   users:
+    account_activation:
+      flash_success_activate: "Account activated!"
+      flash_warning_activate: "Invalid activation link"
+      flash_warning_not_activated: "Account not activated. Check your email for the activation link."
     create:
-      flash_success_create: "Welcome to the Sample App!"
+      flash_activate_account: "Please check your email to activate your account."
+      #flash_success_create: "Welcome to the Sample App!"
     destroy:
       delete: "Delete"
       delete_confirmation: "You sure?"
@@ -110,6 +115,14 @@ en:
       not_found: "Not Found"
     update:
       flash_success_update: "Profile updated"
+  user_mailer:
+    account_activation:
+      body_content_html:
+        activate: "Activate"
+        hi_user: "Hi %{user_name},"
+        content: "Welcome to the Sample App! Click on the link below to activate your account:"
+        header: "Sample App"
+    subject: "Account activation"
   sessions:
     create:
       flash_invalid_login: "Invalid email/password combination"
