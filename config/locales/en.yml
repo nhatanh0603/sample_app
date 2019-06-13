@@ -56,6 +56,22 @@ en:
   rails_screencast_link : "http://screencasts.railstutorial.org/"
   rails_tut_link: "https://www.railstutorial.org/"
 
+  password_resets:
+    edit:
+      submit_button: "Update password"
+      title: "Reset password"
+      title_content: "Reset password"
+    new:
+      submit_button: "Submit"
+      title: "Forgot password"
+      title_content: "Forgot password"
+    controller:
+      flash_email_found: "Email sent with password reset instructions"
+      flash_email_not_found: "Email address not found"
+      flash_reset_pw_success: "Password has been reset."
+      flash_reset_pw_expired: "Password reset has expired."
+      pw_empty_error: "can't be empty"
+
   shared:
     error_messages:
       message:
@@ -122,7 +138,12 @@ en:
         hi_user: "Hi %{user_name},"
         content: "Welcome to the Sample App! Click on the link below to activate your account:"
         header: "Sample App"
-    subject: "Account activation"
+    password_reset:
+      instruction_text_html: "To reset your password click the link below:\n\n%{reset_link}\n\nThis link will expire in two hours.\n\nIf you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      instruction_html: "<h1>Password reset</h1><p>To reset your password click the link below:</p>%{reset_link}<p>This link will expire in two hours.</p><p>If you did not request your password to be reset, please ignore this email and your password will stay as it is.</p>"
+      reset_link_text: "Reset password"
+    subject_active: "Account activation"
+    subject_reset: "Password reset"
   sessions:
     create:
       flash_invalid_login: "Invalid email/password combination"
@@ -132,3 +153,4 @@ en:
       submit_button: "Log in"
       sign_up_now: "Sign up now!"
       title: "Log in"
+      forgot_password: "(Forgot password?)"
